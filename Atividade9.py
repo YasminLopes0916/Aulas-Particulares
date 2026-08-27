@@ -1,3 +1,4 @@
+#Exercicio9
 nota1 = float(input("Qual a sua primeira nota? "))
 if nota1 < 0 or nota1 > 10:
     print("Opção inválida! Como você colocou um valor inválido, vou interpretar como nota zero")
