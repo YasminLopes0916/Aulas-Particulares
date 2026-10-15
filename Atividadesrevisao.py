@@ -1,4 +1,3 @@
-#parte1
 minha_idade = 25
 sobre_idade = "Eu tenho " + str(minha_idade) + " anos"
 #print (sobre_idade)
