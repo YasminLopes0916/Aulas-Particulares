@@ -1,5 +1,5 @@
 import random
-numero = 0 #variável necessária antes de colocar o while
+numero = 0 
 maximo = int(input("Vamos apostar! Você quer adivinhar um número de 1 até quanto? "))
 chances = int(input("Quantas chances você deseja ter para conseguir acertar o número secreto? "))
 secreto = random.randint(1,maximo) #onde começa e termina os valores a serem escolhidos
@@ -14,9 +14,11 @@ while numero != secreto and chances != 0: #While para de repetir pq o user acert
     chances -= 1
     print(f"Você tem {chances} chances.")
 if  numero != secreto and chances == 0:
-    print("Você perdeu! Suas chances acabaram!")
+    print(f"Você perdeu! Suas chances acabaram! O número secreto era: {secreto}!")
 
 
+#variável necessária antes de colocar o while
+#No código colocar - além da informação que a pessoa perdeu as chances, qual era o número secreto!
 #Cuidado com a ordem, sempre colocar a variável antes do comando.
 #chances -= 1 é o oposto da atividade do rainfall
 #Tirar a condicional da indentação do loop - e especificar que é porque as chances acabaram - faz com que ela seja executada depois que o loop acabar.

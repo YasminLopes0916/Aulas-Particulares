@@ -60,3 +60,5 @@ elif pista == "rastreamento": #esse else era pra ser caso o user digitasse errad
             print("Descartar pista")
 else:
     print("Pista inválida!")
+
+#Ainda sobre o contador, só usa se for uma variável que será usada depois do while.
