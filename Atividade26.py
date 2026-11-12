@@ -42,3 +42,5 @@ estrela Michelin. Se o nível for entre 8 e 12, o crítico continua neutro e voc
 Caso contrário, ele fica horrorizado e vai embora."""
 
 #Na atv o capricho maior que o ingrediente já pode conferir a estrela Michelin
+"""O armazenamento e na lista o primeiro colocado é zero pois pra armazenar o zero tmb é usado e não deve ser desperdiçado. Por isso
+a lista sempre começa no índice zero"""
