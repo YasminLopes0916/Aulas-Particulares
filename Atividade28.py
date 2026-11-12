@@ -22,5 +22,6 @@ if cansaco >= 10:
     print(f"{nome} desistiu de dormir e fez o pacto!")
 else:
     print(f"{nome} aguentou as 5 noites e ficou com Jesus!")
+    
 """Para o programa retornar cada print lentamente, use a biblioteca time e a função sleep. Devo colocar a função sleep antes
-do print e depois dos if, elif, else. 
+do print e depois dos if, elif, else. """
